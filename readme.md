@@ -6,7 +6,18 @@
 ## Download Git
 #### https://git-scm.com/downloads
 
-## Git config name and email
+
+
+## Setup git a account in local computer
+<p> Kindly create git hub account and a git repository. Below is a sample a/c and repository </p>
+#### Git A/c        =>  ghaccount
+#### Git Repository =>  git@github.com:ghaccount/github.git
+
+
+
+
+
+## Set default name and email
 
 ```
 git config user.name "YOUR_USER_NAME"
@@ -15,6 +26,8 @@ git config user.email "YOUR_EMAIL"
 git config --global user.name "YOUR_USER_NAME"
 git config --global user.email "YOUR_EMAIL"
 ```
+
+
 
 
 ## Git Branching and merging
