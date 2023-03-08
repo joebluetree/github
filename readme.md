@@ -31,7 +31,7 @@ C:\Users\Admin\.ssh
 
 ## Create a new SSH Key ( Private and Public key pair)
 
-<p>Open dos command prompt and move to the folder C:\Users\Admin\.ssh, then issue below command</p>
+<p>Go to the folder C:\Users\Admin\.ssh, then issue below command</p>
 
 ```
 ssh-keygen user1
