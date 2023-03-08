@@ -78,6 +78,19 @@ git config --global user.name "YOUR_USER_NAME"
 git config --global user.email "YOUR_EMAIL"
 ```
 
+## Git Commands
+```
+// add  files to repository
+git add .
+git add filename
+// Commit files to repository
+git commit -am "save"
+// push the changes to repository
+git push origin master
+// pull changes from repository to local computer
+git pull
+```
+
 ## Git Branching and merging
 <p>
 Branching is used to create a working folder (branch) where you can do changes and later when completed it can be merged to the original master branch. Below is a set of commands to create a branch namely hotfix then it is merged to master branch
