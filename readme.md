@@ -80,7 +80,7 @@ git config --global user.email "YOUR_EMAIL"
 
 ## Git Commands
 ```
-// add  files to repository
+// add all files or single file to repository
 git add .
 git add filename
 // Commit files to repository
