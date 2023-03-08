@@ -35,9 +35,9 @@ C:\Users\Admin\.ssh
 ```
 ssh-keygen user1
 ```
-## create config file
+## Create config file
 <p>
-create a file config under the .ssh folder and enter below lines
+Create a file config under the .ssh folder and enter below lines
 </p>
 
 ```
