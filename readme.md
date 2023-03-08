@@ -86,7 +86,7 @@ git add filename
 // Commit files to repository
 git commit -am "save"
 // push the changes to repository
-git push origin master
+git push
 // pull changes from repository to local computer
 git pull
 ```
