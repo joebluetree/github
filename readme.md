@@ -42,7 +42,6 @@ now extract the content of user1.pub and update it in git site
 open git web site, then under settings/SSH and GPG keys add a new SSH key and update the key
 ```
 
-
 ## Create config file
 <p>
 Create a file config under the .ssh folder and enter below lines
@@ -55,7 +54,6 @@ HOSTNAME github.com
 USER git
 IdentityFile  ~/.ssh/user1
 ```
-
 
 ## Set default name and email
 <p>
