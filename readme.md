@@ -56,7 +56,7 @@ IdentityFile  ~/.ssh/user1
 ```
 
 ## Clone Git Repository
-<p> goto alocal folder and enter below command to clone a git repository </p>
+<p> goto a local folder and enter below command to clone a git repository </p>
 
 ```
 git clone git@github.com:ghaccount/github.git
