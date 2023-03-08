@@ -17,23 +17,14 @@ git config --global user.email "YOUR_EMAIL"
 ```
 
 
-## Create  a git branch
+## Git Branching and merging
+<p>
+Branching is used to create a working folder (branch) where you can do changes and later when completed it can be merged to the original master branch. Below is a set of commands to create a branch namely hotfix then it is merged to master branch
+</p>
 ```
-git branch hotfix
-```
-## goto a branch
-```
+git branch   hotfix
 git checkout hotfix
-```
-## move to master
-```
 git checkout master
-```
-## merge branch to master
-```
-git merge hotfix
-```
-## delete branch
-```
+git merge    hotfix
 git branch -d hotfix
 ```
