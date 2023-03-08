@@ -39,7 +39,7 @@ ssh-keygen user1
 //user1      => private key file
 //user1.pub  => public  key file 
 now extract the content of user1.pub and update it in git site
-open git web site, then under settings/SSH and GPG keys add a new SSH key and update 
+open git web site, then under settings/SSH and GPG keys add a new SSH key and update the key
 ```
 
 
