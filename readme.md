@@ -30,12 +30,14 @@ C:\Users\Admin\.ssh
 ```
 
 ## Create a new SSH Key ( Private and Public key pair)
-<p>
-Open dos command prompt and move to the folder C:\Users\Admin\.ssh and issue below command
-</p>
+<p>Open dos command prompt and move to the folder C:\Users\Admin\.ssh and issue below command</p>
+
 ```
+
 ssh-keygen user1
+
 ```
+
 
 
 ## Set default name and email
