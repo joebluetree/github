@@ -11,6 +11,10 @@
 ## Setup a git account in local computer
 
 <p>
+Download and install git from site https://git-scm.com/downloads
+</p>
+
+<p>
 Kindly create a git hub account and a git repository. Below is a sample a/c and repository
 </p>
 
@@ -19,9 +23,7 @@ Git A/c          : ghaccount
 Git Repository   : git@github.com:ghaccount/github.git
 ```
 
-<p>
-Download and install git from site https://git-scm.com/downloads
-</p>
+
 
 ## Create a folder .ssh under C:\Users\Admin 
 ```
