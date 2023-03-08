@@ -8,7 +8,7 @@
 
 
 
-## Setup git a account in local computer
+## Setup a git account in local computer
 
 <p>
 Kindly create a git hub account and a git repository. Below is a sample a/c and repository
@@ -18,6 +18,12 @@ Kindly create a git hub account and a git repository. Below is a sample a/c and 
 Git A/c          : ghaccount
 Git Repository   : git@github.com:ghaccount/github.git
 ```
+
+## Setting git in Local computer
+<p>
+Download and install git from site https://git-scm.com/downloads
+</P
+
 
 
 ## Set default name and email
