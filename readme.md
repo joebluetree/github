@@ -9,9 +9,12 @@
 
 
 ## Setup git a account in local computer
-<p> 
+
+<p>
 Kindly create a git hub account and a git repository. Below is a sample a/c and repository
 </p>
+
+
 ## Sample Git A/c Details
 #### Git A/c          ghaccount
 #### Git Repository   git@github.com:ghaccount/github.git
