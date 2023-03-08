@@ -33,9 +33,7 @@ C:\Users\Admin\.ssh
 <p>Open dos command prompt and move to the folder C:\Users\Admin\.ssh and issue below command</p>
 
 ```
-
 ssh-keygen user1
-
 ```
 
 
