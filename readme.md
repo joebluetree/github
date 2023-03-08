@@ -19,12 +19,10 @@ Git A/c          : ghaccount
 Git Repository   : git@github.com:ghaccount/github.git
 ```
 
-## Setting git in Local computer
+## Setup git in Local computer
 <p>
 Download and install git from site https://git-scm.com/downloads
 </P
-
-
 
 ## Set default name and email
 <p>
