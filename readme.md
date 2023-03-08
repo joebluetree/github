@@ -24,7 +24,6 @@ Git Repository   : git@github.com:ghaccount/github.git
 ```
 
 
-
 ## Create a folder .ssh under C:\Users\Admin 
 ```
 C:\Users\Admin\.ssh
@@ -56,8 +55,14 @@ USER git
 IdentityFile  ~/.ssh/user1
 ```
 
+## Clone Git Repository
+<p> goto alocal folder and enter below command to clone a git repository </p>
 
+```
+git clone git@github.com:ghaccount/github.git
+// use dos command to goto the clonned folder and set the default user name and email
 
+```
 
 
 ## Set default name and email
