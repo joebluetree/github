@@ -27,8 +27,7 @@ Download and install git from site https://git-scm.com/downloads
 ## Set default name and email
 <p>
 use below commands to set defauly user name and email id, which can be set globally or to a local folder only
-</P
-
+</p>
 ```
 git config user.name "YOUR_USER_NAME"
 git config user.email "YOUR_EMAIL"
