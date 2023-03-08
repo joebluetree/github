@@ -38,8 +38,6 @@ ssh-keygen user1
 ```
 
 
-
-
 ## Set default name and email
 <p>
 Use below commands to set default user name and email id, which can be set globally or ocal folder only
