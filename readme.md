@@ -24,9 +24,15 @@ Git Repository   : git@github.com:ghaccount/github.git
 Download and install git from site https://git-scm.com/downloads
 </p>
 
+## Create a folder .ssh under C:\Users\Admin 
+```
+C:\Users\Admin\.ssh
+```
+
+
 ## Set default name and email
 <p>
-use below commands to set defauly user name and email id, which can be set globally or to a local folder only
+Use below commands to set default user name and email id, which can be set globally or ocal folder only
 </p>
 
 ```
