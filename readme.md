@@ -30,11 +30,19 @@ C:\Users\Admin\.ssh
 ```
 
 ## Create a new SSH Key ( Private and Public key pair)
-<p>Open dos command prompt and move to the folder C:\Users\Admin\.ssh and issue below command</p>
+
+<p>Open a dos command prompt and move to the folder C:\Users\Admin\.ssh, then issue below command</p>
 
 ```
 ssh-keygen user1
+//above command will create two files 
+//user1      => private key file
+//user1.pub  => public  key file 
+now extract the content of user1.pub and update it in git site
+open git web site, then under settings/SSH and GPG keys add a new SSH key and update 
 ```
+
+
 ## Create config file
 <p>
 Create a file config under the .ssh folder and enter below lines
