@@ -35,6 +35,15 @@ C:\Users\Admin\.ssh
 ```
 ssh-keygen user1
 ```
+## create config file
+<p>create a file config under the .ssh folder and enter below lines </p>
+```
+# User1
+HOST github.com
+HOSTNAME github.com
+USER git
+IdentityFile  ~/.ssh/user1
+```
 
 
 
