@@ -19,8 +19,8 @@ Kindly create a git hub account and a git repository. Below is a sample a/c and 
 </p>
 
 ```
-Git A/c          : ghaccount
-Git Repository   : git@github.com:ghaccount/github.git
+Git A/c          : gitaccount
+Git Repository   : git@github.com:gitaccount/gitrepo.git
 ```
 
 
@@ -34,12 +34,14 @@ C:\Users\Admin\.ssh
 <p>Go to the folder C:\Users\Admin\.ssh, then issue below command</p>
 
 ```
-ssh-keygen user1
-//above command will create two files 
+ssh-keygen -t rsa -C "your_email@example.com"
+//above command will ask for the name of file and passkey, you can ignore the passkey.
+// And it will create two files 
 //user1      => private key file
 //user1.pub  => public  key file 
 now extract the content of user1.pub and update it in git site
 open git web site, then under settings/SSH and GPG keys add a new SSH key and update the key
+and you can give any title
 ```
 
 ## Create config file
@@ -49,17 +51,27 @@ Create a file config under the .ssh folder and enter below lines
 
 ```
 # User1
-HOST github.com
+HOST github.com-[user1]
 HOSTNAME github.com
 USER git
 IdentityFile  ~/.ssh/user1
+```
+
+## identifying multiple git accounts
+<p>
+you can give an identifier at the end of the host by entering a hyphen and and identifier
+adn the same will be used while refereing the git url
+</p>
+```
+HOST github.com-[user1] 
+git@github.com-[user1]:gitaccount/gitrepo.git
 ```
 
 ## Clone Git Repository
 <p> goto a local folder and enter below command to clone a git repository </p>
 
 ```
-git clone git@github.com:ghaccount/github.git
+git clone git@github.com-[user1]:gitaccount/gitrepo.git
 // use dos command to goto the clonned folder and set the default user name and email
 
 ```
@@ -76,6 +88,14 @@ git config user.email "YOUR_EMAIL"
 
 git config --global user.name "YOUR_USER_NAME"
 git config --global user.email "YOUR_EMAIL"
+```
+
+## change https url to ssh / ssh to https url
+```
+git remote -v // will show the current remote url
+git remote set-url origin git@github.com-[user1]:gitaccount/gitrepo.git 
+git remote set-url origin https://github.com/gitaccount/gitrepo.git
+
 ```
 
 ## Git Commands
