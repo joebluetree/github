@@ -76,7 +76,15 @@ git@github.com-[user1]:gitaccount/gitrepo.git
 git clone git@github.com-[user1]:gitaccount/gitrepo.git
 // use dos command to goto the clonned folder and set the default user name and email
 
+
+
+
 ```
+
+
+
+
+
 
 
 ## Set default name and email
@@ -99,6 +107,7 @@ git remote set-url origin git@github.com-[user1]:gitaccount/gitrepo.git
 git remote set-url origin https://github.com/gitaccount/gitrepo.git
 
 ```
+
 
 ## Git Commands
 ```
