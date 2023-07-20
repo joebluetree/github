@@ -59,9 +59,11 @@ IdentityFile  ~/.ssh/user1
 
 ## identifying multiple git accounts
 <p>
-you can give an identifier at the end of the host by entering a hyphen and and identifier
-adn the same will be used while refereing the git url
+you can give an identifier at the end of the host by entering a hyphen and an identifier
+.the same will be used while refereing the git url
 </p>
+
+## multiple git account settings
 ```
 HOST github.com-[user1] 
 git@github.com-[user1]:gitaccount/gitrepo.git
