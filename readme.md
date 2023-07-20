@@ -76,15 +76,15 @@ git@github.com-[user1]:gitaccount/gitrepo.git
 git clone git@github.com-[user1]:gitaccount/gitrepo.git
 // use dos command to goto the clonned folder and set the default user name and email
 
-
-
-
 ```
 
+## init git repo manually
+```
+git init
 
+git remote add origin url // add a remote repo
 
-
-
+```
 
 
 ## Set default name and email
@@ -93,6 +93,7 @@ Use below commands to set default user name and email id, which can be set globa
 </p>
 
 ```
+git config -l
 git config user.name "YOUR_USER_NAME"
 git config user.email "YOUR_EMAIL"
 
