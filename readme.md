@@ -133,19 +133,19 @@ git pull
 
 ## restore a file from staging area
 ```
-	git restore --staged <filename>
+git restore --staged <filename>
 ```
 
 ## restore a file from commit area
 ```
-	git restore filename
+git restore filename
 ```
 
 ## restore to previous version
 ```
-	git log --oneline
-	git checkout  id
-	git checkout branch -> reset to latest head
+git log --oneline
+git checkout  id
+git checkout branch -> reset to latest head
 ```
 
 
