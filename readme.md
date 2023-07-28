@@ -52,7 +52,7 @@ and you can give any title
 
 ## Create config file
 <p>
-Create a file config under the .ssh folder and enter below lines
+Create a file namely "config" under the .ssh folder and enter below lines
 </p>
 
 ```
