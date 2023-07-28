@@ -23,6 +23,12 @@ Git A/c          : gitaccount
 Git Repository   : git@github.com:gitaccount/gitrepo.git
 ```
 
+## communication protocols
+<p>
+	1. https 
+	2. ssh
+</p>
+
 
 ## Create a folder .ssh under C:\Users\Admin 
 ```
@@ -84,6 +90,8 @@ git init
 
 git remote add origin url // add a remote repo
 
+git --version
+
 ```
 
 
@@ -123,6 +131,24 @@ git push
 git pull
 ```
 
+## restore a file from staging area
+```
+	git restore --staged <filename>
+```
+
+## restore a file from commit area
+```
+	git restore filename
+```
+
+## restore to previous version
+```
+	git log --oneline
+	git checkout  id
+	git checkout branch -> reset to latest head
+```
+
+
 ## Git Branching and merging
 <p>
 Branching is used to create a working folder (branch) where you can do changes and later when completed it can be merged to the original master branch. Below is a set of commands to create a branch namely hotfix then it is merged to master branch
@@ -140,3 +166,19 @@ git merge    hotfix
 // remove hotfix branch
 git branch -d hotfix
 ```
+
+## Git remove remote repo reference from local repo
+```
+git branch -all
+git fetch origin --prune
+git fetch --prune
+```
+
+## Git merging branch
+<p>
+	fast forward merge
+	branch commit merge with no conflict
+	branch commit merge with a conflict
+</p>
+
+	
