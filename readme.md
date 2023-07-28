@@ -175,10 +175,11 @@ git fetch --prune
 ```
 
 ## Git merging branch
-<p>
+```
 	fast forward merge
 	branch commit merge with no conflict
 	branch commit merge with a conflict
-</p>
+```
+
 
 	
