@@ -62,6 +62,21 @@ HOSTNAME github.com
 USER git
 IdentityFile  ~/.ssh/user1
 ```
+```
+# Joe BlueTree
+HOST github.com-bluetree
+HOSTNAME github.com
+USER git
+IdentityFile  ~/.ssh/joebluetree
+
+# cargomar projects
+HOST github.com-cargomarprojects
+HOSTNAME github.com
+USER git
+IdentityFile  ~/.ssh/cargomarprojects
+```
+
+
 
 ## Identifying multiple git accounts
 <p>
